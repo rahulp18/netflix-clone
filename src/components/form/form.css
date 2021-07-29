@@ -1,0 +1,112 @@
+.i-container{
+    max-width: 500px;
+    /* border: 2px solid green; */
+    margin-top: 1.2rem;
+    background: rgba(0,0,0,.75);
+    margin-bottom: 90px;
+    padding: 60px;
+    padding-top: 30px;
+}
+.i-h1{
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.i-signin{
+    background-color: #e50914;
+     
+    padding: 15px 17px;
+   
+    
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0 2px; 
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    line-height: 1em;
+}
+.small-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8c8c8c;
+    font-size: 15px;
+}
+.last-box{
+    /* border: 1px solid white; */
+    max-width: 312px;
+    color: #737373;;
+    padding: 20px 0px;
+}
+.item-1{
+  font-size: 13px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.item-2{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+   
+}
+ .item-2 span{
+    color: white;
+}
+.item-3{
+    font-size: 13px;
+    color: #8c8c8c;
+    margin: 13px 0;
+}
+.item-3 >span{
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+.item-2 a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.item-2 a:hover{
+    text-decoration: none;
+}
+.facebook{
+    font-size: 25px;
+    color:	#4267B2;
+    margin-right: 3px;
+     
+    overflow: hidden;
+}
+.error-box{
+    background: #ff000026;
+    padding: 0px 10px;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.error-box p{
+    color: red;
+    line-height: 1.3em;
+}
+@media (max-width:700px){
+    .i-container {
+        max-width: 350px;
+        /* border: 2px solid green; */
+        margin-top: 2.2rem;
+        width: 100%;
+         
+        margin-bottom: 90px;
+        padding: 5px;
+        padding-top: 30px;
+    }
+}

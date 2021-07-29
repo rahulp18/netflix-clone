@@ -1,0 +1,60 @@
+.input-container{
+width: 100%;
+padding-bottom: 60px;
+}
+.input-box{
+    padding: 30px 5%;
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.start-btn{
+    padding: 17px 18px;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #e50914;
+    border: 0;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+.start-btn:hover{
+    background-color: #ff0a16;
+    transition: 0.2s ease-out;
+}
+.input input{
+    padding: 20px;
+    width: 500px;
+    border: 0;
+    outline: none;
+    font-size: 1.25rem;
+}
+.box-header h3{
+    text-align: center;
+    margin: 20px;
+    margin-top: 60px;
+    font-size: 1.2rem;
+}
+@media (max-width:700px){
+    .start-btn {
+        padding: 14px 18px;
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    .input {
+        
+        flex-direction: column;
+    }
+    .input input {
+        padding: 15px;
+        width: 90%;
+        font-size: 1rem;
+         
+    }
+}

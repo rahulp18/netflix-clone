@@ -1,0 +1,13 @@
+.container{
+    /* width: 80vw; */
+    /* margin: 0 auto; */
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+   
+    margin:auto;
+     
+
+}
+
+ 
